@@ -1,0 +1,20 @@
+{
+  "name": "todolistts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "tsc --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marcinfras/todolistTS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marcinfras/todolistTS/issues"
+  },
+  "homepage": "https://github.com/marcinfras/todolistTS#readme"
+}
