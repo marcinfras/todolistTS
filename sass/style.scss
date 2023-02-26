@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: arial;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(45deg, #1ce, #fff);
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.form {
+  width: 90%;
+  max-width: 450px;
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+  font-size: 2rem;
+
+  &__inputText {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px 10px;
+  }
+
+  &__categories {
+    list-style: none;
+  }
+
+  &__btn {
+    display: block;
+    width: 100%;
+    margin: 15px 0;
+    padding: 10px;
+    background-color: transparent;
+    border: 2px solid white;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+  }
+
+  &__tasks {
+    list-style-position: inside;
+  }
+
+  &__task {
+    position: relative;
+
+    &--work {
+      color: red;
+    }
+    &--hobby {
+      color: goldenrod;
+    }
+    &--gym {
+      color: green;
+    }
+  }
+
+  &__removeTask {
+    position: absolute;
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+}

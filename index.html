@@ -1,12 +1,22 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
     <title>ToDoList</title>
-</head>
-<body>
+  </head>
+  <body>
+    <form class="form">
+      <label for="text">Task:</label>
+      <input class="form__inputText" type="text" name="text" id="text" />
+
+      <ul class="form__categories"></ul>
+      <button class="form__btn">Add</button>
+
+      <ul class="form__tasks"></ul>
+    </form>
     <script src="./dist/app.js"></script>
-</body>
+  </body>
 </html>

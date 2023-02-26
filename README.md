@@ -1,1 +1,1 @@
-# todolistTS
+# Simple Typescript ToDoListApp
